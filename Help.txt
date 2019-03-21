@@ -1,0 +1,11 @@
+.Synopsis 
+   Change local administrator password on list of computers given in a text file
+        
+.Description
+  This script picks up the computer names from given input file and changes the local administrator password (generation of new passwords for each PC)
+
+.Parameter InputFile    
+  The full path of the text file name where computer account names are stored. Ex: C:\temp\computers.txt
+        
+.Example
+ ./Update-LocalAdministratorPassword.ps1 -InputFile c:\temp\Computers.txt -Verbose

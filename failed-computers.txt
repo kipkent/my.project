@@ -1,0 +1,4 @@
+ComputerName 	 IsOnline 	 PasswordChangeStatus
+____________ 	 ________ 	 ____________________
+PC076 	 OFFLINE 	 SUCCESS
+PC321321 	 OFFLINE 	 FAILED
